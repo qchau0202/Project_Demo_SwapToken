@@ -1,10 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Image, Pagination, Card, Grid } from "@nextui-org/react";
+import { Container, Image, Pagination, Card, Grid, Dropdown, Modal, Text, Button } from "@nextui-org/react";
 import UniSwapLogo from "../assets/uniswap-uni-logo.svg";
 import "./css/logo.css"
 import "./css/header.css"
+
 const Header = () => {
+  const [visible, setVisible] = React.useState(false);
+  const handler = () => setVisible(true);
+
+  const closeHandler = () => {
+    setVisible(false)
+    console.log("close")
+  }
+
   return (
     <header>
       <div className="logo">
@@ -20,6 +29,18 @@ const Header = () => {
             <Grid>Vote</Grid>
             <Grid>Chart</Grid>
         </Grid.Container>
+        <Dropdown disableAnimation>
+          <Dropdown.Button flat color="primary">
+            
+          </Dropdown.Button>
+          <Dropdown.Menu>Select a network</Dropdown.Menu>
+        </Dropdown>
+        <div>
+        <Button auto shadow onClick={handler}>Connect Wallet</Button>
+        <Modal closeButton open={visible} onClose={closeHandler}>
+
+        </Modal>
+        </div>
       </div>
       <div className="settings"></div>
     </header>
