@@ -31,7 +31,7 @@ const Header = () => {
         </Grid.Container>
         <Dropdown disableAnimation>
           <Dropdown.Button flat color="primary">
-            
+            Select token
           </Dropdown.Button>
           <Dropdown.Menu>Select a network</Dropdown.Menu>
         </Dropdown>
@@ -41,6 +41,10 @@ const Header = () => {
 
         </Modal>
         </div>
+        <Dropdown disableAnimation>
+          <Dropdown.Button flat>...</Dropdown.Button>
+
+        </Dropdown>
       </div>
       <div className="settings"></div>
     </header>
