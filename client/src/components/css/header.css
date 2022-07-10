@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-direction: row;
+    justify-content: space-between;
+}

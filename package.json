@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@solana/pay": "^0.2.0",
+    "@solana/wallet-adapter-base": "^0.9.7",
+    "@solana/wallet-adapter-react": "^0.15.6",
+    "@solana/wallet-adapter-react-ui": "^0.9.8",
+    "@solana/wallet-adapter-wallets": "^0.16.6",
+    "@solana/web3.js": "^1.47.3"
+  }
+}
