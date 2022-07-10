@@ -1,16 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  Container,
   Image,
-  Pagination,
-  Card,
   Grid,
-  Dropdown,
-  Modal,
-  Text,
-  Button,
 } from "@nextui-org/react";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+
 import UniSwapLogo from "../assets/uniswap-uni-logo.svg";
 import "./css/logo.css";
 import "./css/header.css";
@@ -34,18 +29,15 @@ const Header = () => {
 
       <div className="categories">
         <Grid.Container gap={2} justify="center">
-          <Grid>Swap</Grid>
-          <Grid>Pool</Grid>
-          <Grid>Vote</Grid>
-          <Grid>Chart</Grid>
+          <Grid><Link to={"/Swap"}>Swap</Link></Grid>
+          <Grid><Link to={"/Pool"}>Pool</Link></Grid>
+          <Grid><Link to={"/vote"}>Vote</Link></Grid>
+          <Grid><Link to={"/Chart"}>Chart</Link></Grid>
         </Grid.Container>
       </div>
 
       <div className="settings">
-        <Button auto shadow onClick={handler}>
-          Connect Wallet
-        </Button>
-        <Modal closeButton open={visible} onClose={closeHandler}></Modal>
+        <WalletMultiButton/>
       </div>
     </header>
   );

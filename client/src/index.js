@@ -4,13 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { NextUIProvider } from '@nextui-org/react';
+import WalletContextProvider from './context/WalletContextProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <WalletContextProvider>
     <NextUIProvider>
     <App />
     </NextUIProvider>
+    </WalletContextProvider>
+    
   </React.StrictMode>
 );
 
