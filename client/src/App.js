@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Vote from "./pages/Vote";
 import Swap from "./pages/Swap";
 import Pool from "./pages/Pool";
 import "./App.css";
@@ -14,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Swap />} />
           <Route path="/Pool" element={<Pool />} />
-          {/* <Route path='/pool' element={<Pool/>}/>
-      <Route path='/vote' element={<Vote/>}/> */}
+  
+      <Route path='/vote' element={<Vote/>}/>
         </Routes>
       </BrowserRouter>
     </div>

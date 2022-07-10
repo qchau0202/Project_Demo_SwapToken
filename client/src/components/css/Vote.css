@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+     font-family: 'Inter custom',sans-serif;
+}
+
+
+.container{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ padding : 50px 50px;
+}
+.a{
+    margin-top: 50px;
+}
+.b{
+    display: flex;
+    margin-right: 90px;
+   margin-bottom: 10px;
+   align-items: center;
+   justify-content: center;
+   padding: 0px 5px;
+}
+.button{
+    justify-content: flex-end;
+    height: 32px;
+    border-radius: 8px;
+   
+}
+.Text{
+    padding-top: 15px;
+}
+.colorText{
+    padding-top: 12px;
+    padding-right: 50px;
+    margin-right: 195px;
+   color:  rgb(86, 90, 105);
+}
+.vote{
+    width: 530px;
+    height: 127px;
+    border:solid black 1px;
+    margin-bottom: 30px;
+    margin-right: 55px;
+    border-radius: 10px;
+    background-image: url("http://chiase24.com/wp-content/uploads/2022/02/Tong-hop-cac-hinh-anh-background-dep-nhat-21.jpg");
+    
+}
+.voteText{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 2px 5px;
+    padding-left: 15px;
+    padding-top: 10px
+    ;
+    margin-bottom: 3px;
+}
+.voteText2{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2px 5px;
+    padding-left: 15px; 
+    ;
+    margin-bottom: 3px;
+}
+.voteText3{
+    color: white;
+    font-size: 14px;
+    padding: 2px 5px;
+    padding-left: 15px;
+  
+}
+h5{
+    margin:0px;
+}
+.votecp{
+    width: 530px;
+    height: 64px;
+    border:solid black 1px;
+    margin-bottom: 30px;
+    margin-right: 55px;
+    border-radius: 10px;
+   background-color: white;
+    
+}
+.footer{
+    color:  rgb(86, 90, 105);
+    margin-right: 70px;
+}
+.c{
+    text-align: center;
+    width: 600px;
+}
