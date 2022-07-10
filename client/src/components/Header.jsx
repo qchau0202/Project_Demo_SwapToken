@@ -14,6 +14,7 @@ import {
 import UniSwapLogo from "../assets/uniswap-uni-logo.svg";
 import "./css/logo.css";
 import "./css/header.css";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 const Header = () => {
   const [visible, setVisible] = React.useState(false);
@@ -42,10 +43,7 @@ const Header = () => {
       </div>
 
       <div className="settings">
-        <Button auto shadow onClick={handler}>
-          Connect Wallet
-        </Button>
-        <Modal closeButton open={visible} onClose={closeHandler}></Modal>
+        <WalletMultiButton/>
       </div>
     </header>
   );
