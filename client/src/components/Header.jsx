@@ -34,10 +34,10 @@ const Header = () => {
 
       <div className="categories">
         <Grid.Container gap={2} justify="center">
-          <Grid>Swap</Grid>
-          <Grid>Pool</Grid>
-          <Grid>Vote</Grid>
-          <Grid>Chart</Grid>
+          <Grid><Link to={"/Swap"}>Swap</Link></Grid>
+          <Grid><Link to={"/Pool"}>Pool</Link></Grid>
+          <Grid><Link to={"/vote"}>Vote</Link></Grid>
+          <Grid><Link to={"/Chart"}>Chart</Link></Grid>
         </Grid.Container>
       </div>
 
