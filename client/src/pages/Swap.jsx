@@ -1,24 +1,30 @@
 import React from "react";
-import {  Avatar, Card, Dropdown, Grid, Text, Tooltip } from "@nextui-org/react";
-import { FontAwesome } from 'react-icons';
+import { Card, Dropdown, Grid, Input, Text } from "@nextui-org/react";
+import { AiOutlineSetting } from 'react-icons/ai';
 import "../components/css/swap.css";
 
-const Swap = () => {
+export default function Swap() {
+  
   return [
     <div>
     <Grid.Container justify="center">
-      <Grid>
-        <Card className="swap">
+      <Grid className="swap">
+        <Card className="swap1">
         <Text h5>Swap</Text>
-        <Dropdown placement="">
-          <Dropdown.Button>
-
-          </Dropdown.Button>
-        </Dropdown>
+        <AiOutlineSetting />
+        <div className="money">
+        <Input placeholder="0.0" />
+        <Dropdown></Dropdown>
+        </div>
+        <div className="money">
+          <Input placeholder="0.0" />
+          <Dropdown></Dropdown>
+        </div>
         </Card>
       </Grid>
     </Grid.Container>
   </div>
   ]
-};
-export default Swap;
+}
+
+
