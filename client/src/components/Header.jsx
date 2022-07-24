@@ -7,7 +7,7 @@ import {
 } from "@nextui-org/react";
 // import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
-import UniSwapLogo from "../assets/uniswap-uni-logo.svg";
+import UniSwapLogo from "../assets/uniswap-4441964-3680017.webp";
 import "./css/header.css";
 
 const Header = () => {

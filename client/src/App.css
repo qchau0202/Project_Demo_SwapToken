@@ -1,3 +1,4 @@
-.bodyBackground{
-    /* background-color: black; */
+.App{
+    height: 100vh;
+    background-color: rgb(33, 36, 41);
 }
