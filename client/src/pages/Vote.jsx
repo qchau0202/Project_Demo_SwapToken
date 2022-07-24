@@ -34,16 +34,17 @@ import {
          <b> <h4 className="colorText"  >
           Show Cancelled
           </h4></b>
-          <Switch color="error" checked={true} />
+          <Switch color="error" iconOff checked={true} />
         </div>
-        <div className="votecp">
-         <p></p>
-         <p></p>
-         <p></p>
-         </div>
+        <a className="votecp" href="#/vote/2/22">
+         <span className="cpa">2.14</span>
+         <span className="cpb">Deploy Uniswap v3 on Celo</span>
+         <span className="cpc">Executed</span>
+         </a>
+         
          <div className="c">
           <p className="footer">A minimum threshold of 0.25% of the total UNI supply is required to submit proposals</p>
-          <p className="footer"> Uniswap available in:<a>Vietnamese</a></p>
+          <h6 className="footer"> Uniswap available in:<a>Vietnamese</a></h6>
          </div>
         </div>
        
