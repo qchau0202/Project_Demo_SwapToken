@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, Dropdown, Grid, Input, Text } from "@nextui-org/react";
+import { Card, Dropdown, Grid, Input, Text, Button } from "@nextui-org/react";
 import { AiOutlineSetting, AiOutlineArrowDown } from 'react-icons/ai';
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+// import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import "../components/css/swap.css";
 
 export default function Swap() {
@@ -24,7 +24,7 @@ export default function Swap() {
             <Input label="To (estimated)" placeholder="0.0" />
             <Dropdown></Dropdown>
           </Card>
-          <WalletMultiButton />
+          <Button color="secondary" shadow size="lg">Select Wallet</Button>
         </Card>
       </Grid>
     </Grid.Container>
