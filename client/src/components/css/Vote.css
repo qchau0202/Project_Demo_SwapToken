@@ -7,7 +7,7 @@
 
 
 .container{
-    display: flex;
+display: flex;
  justify-content: center;
  align-items: center;
  padding : 50px 50px;
@@ -43,7 +43,7 @@
     height: 127px;
     border:solid black 1px;
     margin-bottom: 30px;
-    margin-right: 55px;
+    /* margin-right: 55px; */
     border-radius: 10px;
     background-image: url("http://chiase24.com/wp-content/uploads/2022/02/Tong-hop-cac-hinh-anh-background-dep-nhat-21.jpg");
     
@@ -54,8 +54,7 @@
     font-size: 15px;
     padding: 2px 5px;
     padding-left: 15px;
-    padding-top: 10px
-    ;
+    padding-top: 10px;
     margin-bottom: 3px;
 }
 .voteText2{
