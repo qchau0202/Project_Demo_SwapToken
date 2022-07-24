@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.swap1 {
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    /* justify-content:  */
+}
+
+.money {
+    height: 90px;
+    width: 100%;
+}
