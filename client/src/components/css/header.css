@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 15px;
+    background-color: rgb(33, 36, 41) !important;
 }
 .logo {
     width: 40px;
@@ -18,7 +19,7 @@ header {
 .categories {
     display: flex;
     align-items: center;
-    margin-left: 4.5em;
+    margin-left: 9.5em;
     background-color: rgb(25, 27, 31);
     width: 20em;
     height: 2.5em;

@@ -4,21 +4,35 @@
     box-sizing: border-box;
 }
 
+.top {
+    width: 100%;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
 .swap1 {
     width: 500px;
     padding: 10px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    background-color: rgb(25, 27, 31);
 }
 
-.top {
-    display: flex;
-    align-items: center;
-    /* justify-content:  */
+.text {
+    color: rgb(143, 150, 172)
 }
 
 .money {
-    height: 90px;
-    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    background-color: gray;
+    color: rgb(143, 150, 172);
 }
