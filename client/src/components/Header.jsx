@@ -7,7 +7,6 @@ import {
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 import UniSwapLogo from "../assets/uniswap-uni-logo.svg";
-import "./css/logo.css";
 import "./css/header.css";
 
 const Header = () => {
@@ -21,18 +20,18 @@ const Header = () => {
 
   return (
     <header>
-      <div className="logo">
+      <div>
         <Link to={"/"}>
           <Image src={UniSwapLogo} className="logo" />
         </Link>
       </div>
 
       <div className="categories">
-        <Grid.Container gap={2} justify="center">
-          <Grid><Link to={"/Swap"}>Swap</Link></Grid>
-          <Grid><Link to={"/Pool"}>Pool</Link></Grid>
-          <Grid><Link to={"/vote"}>Vote</Link></Grid>
-          <Grid><Link to={"/Chart"}>Chart</Link></Grid>
+        <Grid.Container gap={3.5} justify="center">
+          <Grid><Link to={"/swap"} className="textLink">Swap</Link></Grid>
+          <Grid><Link to={"/pool"} className="textLink">Pool</Link></Grid>
+          <Grid><Link to={"/vote"} className="textLink">Vote</Link></Grid>
+          <Grid><Link to={"/chart"} className="textLink">Chart</Link></Grid>
         </Grid.Container>
       </div>
 

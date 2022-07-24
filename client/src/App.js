@@ -9,14 +9,13 @@ require("@solana/wallet-adapter-react-ui/styles.css");
 
 function App() {
   return (
-    <div>
+    <div className="bodyBackground">
       <BrowserRouter>
-      <Header />
+        <Header />
         <Routes>
           <Route path="/" element={<Swap />} />
-          <Route path="/Pool" element={<Pool />} />
-  
-      <Route path='/vote' element={<Vote/>}/>
+          <Route path="/pool" element={<Pool />} />
+          <Route path="/vote" element={<Vote />} />
         </Routes>
       </BrowserRouter>
     </div>
