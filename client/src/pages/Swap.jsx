@@ -15,7 +15,7 @@ export default function Swap() {
           <Card className="money">
             <Input label="From" placeholder="0.0" />
           </Card>
-          <AiOutlineArrowDown />
+          <AiOutlineArrowDown color="gray" />
           <Card className="money">
             <Input label="To (estimated)" placeholder="0.0" />
           </Card>
