@@ -9,7 +9,6 @@ const Pool = () => {
       <div className="container">
         <div className="top">
           <p>Pools Overview</p>
-          <button>+ New position</button>
         </div>
 
         <div className="box">
