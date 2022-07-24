@@ -44,7 +44,7 @@ import {
          
          <div className="c">
           <p className="footer">A minimum threshold of 0.25% of the total UNI supply is required to submit proposals</p>
-          <h6 className="footer"> Uniswap available in:<a>Vietnamese</a></h6>
+          <h6 className="footer"> Uniswap available in:<a> Vietnamese</a></h6>
          </div>
         </div>
        

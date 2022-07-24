@@ -19,7 +19,7 @@ export default function Swap() {
           <Card className="money">
             <Input label="To (estimated)" placeholder="0.0" />
           </Card>
-          <Button color="secondary" shadow size="lg">Select Wallet</Button>
+          <Button color="secondary" size="lg">Select Wallet</Button>
         </Card>
       </Grid>
     </Grid.Container>

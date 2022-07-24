@@ -37,7 +37,7 @@ const Header = () => {
       </div>
 
       <div className="settings">
-        <Button color="secondary" shadow size="lg">Select Wallet</Button>
+        <Button color="secondary" size="lg">Select Wallet</Button>
       </div>
     </header>
   );
