@@ -21,11 +21,9 @@ import {
             <a href="#" className="voteText3">Read more about Uniswap governance</a>
           </div>
         <div className="b">
-          <Text className="Text" b h3 css={{
-              color: 'white'
-          }}>
+          <h3 className="Text" b h3 >
             Proposals
-          </Text>
+          </h3>
           <Button className="button" auto color={`error`} >
            Create Proposal
           </Button>
