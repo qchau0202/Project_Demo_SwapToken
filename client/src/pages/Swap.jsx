@@ -35,25 +35,19 @@ export default function Swap() {
   }, [publicKey, sendTransaction, connection]);
 
   return (
-    <Grid.Container justify="center">
+    <Grid.Container className="all">
       <form className="swap" onSubmit={handleOnSubmit}>
         <Card className="swap1">
-          <div className="top">
-            <h5>Swap</h5>
-            <AiOutlineSetting />
-          </div>
-          <Card>
+            <h5 className="text">Swap</h5>
+            <AiOutlineSetting color="white" />
+          <Card className="money">
             <Input label="From" placeholder="0.0" name="recipientAddress" />
-            <Dropdown></Dropdown>
           </Card>
-          <AiOutlineArrowDown />
-          <Card>
+          <AiOutlineArrowDown color="gray" />
+          <Card className="money">
             <Input label="To (estimated)" placeholder="0.0" name="amount" />
-            <Dropdown></Dropdown>
           </Card>
-          <Button className="button" auto color={`error`} type="submit">
-            Create Proposal
-          </Button>
+          <Button color="secondary" size="lg">Select Wallet</Button>
         </Card>
       </form>
     </Grid.Container>

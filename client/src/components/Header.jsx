@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import {
   Image,
   Grid,
+  Button,
 } from "@nextui-org/react";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+// import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 import UniSwapLogo from "../assets/uniswap-4441964-3680017.webp";
 import "./css/header.css";
@@ -36,7 +37,7 @@ const Header = () => {
       </div>
 
       <div className="settings">
-        <WalletMultiButton/>
+        <Button color="secondary" size="lg">Select Wallet</Button>
       </div>
     </header>
   );
