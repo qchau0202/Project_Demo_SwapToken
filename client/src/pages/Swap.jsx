@@ -47,9 +47,7 @@ export default function Swap() {
           <Card className="money">
             <Input label="To (estimated)" placeholder="0.0" name="amount" />
           </Card>
-          <Button className="button" auto color={`error`} type="submit">
-            Create Proposal
-          </Button>
+          <Button color="error" size="lg" type="submit">Send Coin</Button>
         </Card>
       </form>
     </Grid.Container>

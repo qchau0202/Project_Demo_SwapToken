@@ -1,3 +1,4 @@
+import { Grid, Button } from "@nextui-org/react";
 import React from "react";
 import "../components/css/pool.css";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
@@ -11,7 +12,7 @@ const Pool = () => {
         </div>
         <div className="box">
           <p>Your active V3 liquidity positions will appear here.</p>
-          <WalletMultiButton/>
+          <WalletMultiButton color="secondary" size="lg">Select Wallet</WalletMultiButton>
         </div>
         <div className="bottom">
          <div className="links-a">
