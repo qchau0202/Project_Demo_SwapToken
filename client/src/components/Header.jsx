@@ -28,7 +28,7 @@ const Header = () => {
 
       <div className="categories">
         <Grid.Container gap={3.5} justify="center">
-          <Grid><Link to={"/swap"} className="textLink">Swap</Link></Grid>
+          <Grid><Link to={"/"} className="textLink">Swap</Link></Grid>
           <Grid><Link to={"/pool"} className="textLink">Pool</Link></Grid>
           <Grid><Link to={"/vote"} className="textLink">Vote</Link></Grid>
           <Grid><Link to={"/chart"} className="textLink">Chart</Link></Grid>
