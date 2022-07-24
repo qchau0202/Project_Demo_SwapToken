@@ -4,21 +4,27 @@
     box-sizing: border-box;
 }
 
+.top {
+    width: 100%;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .swap1 {
     width: 500px;
     padding: 10px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-}
-
-.top {
-    display: flex;
     align-items: center;
-    /* justify-content:  */
 }
 
 .money {
-    height: 90px;
-    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    display: flex;
 }
