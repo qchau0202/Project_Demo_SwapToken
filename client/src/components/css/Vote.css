@@ -21,17 +21,18 @@ display: flex;
 .b{
     display: flex;
     margin-right: 100px;
-    margin-left: 30px;
-   margin-bottom: 8px;
+    margin-left: 100px;
+   margin-bottom: 5px;
    align-items: center;
-   justify-content: space-between;
-   padding: 0px 10px;
+   justify-content: space-around;
+   padding: 0px 5px;
     border-radius: 8px;
    
 }
 .Text{
     padding-top: 15px;
     color: white;
+    margin-right: 170px;
 }
 .colorText{
     padding-top: 12px;
@@ -98,8 +99,9 @@ h5{
 }
 .footer{
     color:  rgb(86, 90, 105);
-    margin-right: 70px;
-    width: 540;
+    margin-right: 50px;
+    padding-left: 40px;
+    width: 440;
 }
 .c{
     text-align: center;
