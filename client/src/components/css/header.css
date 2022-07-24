@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 15px;
+    background-color: rgb(33, 36, 41) !important;
 }
 .logo {
     width: 40px;
