@@ -17,7 +17,7 @@ export default function Swap() {
           </Card>
           <AiOutlineArrowDown color="gray" />
           <Card className="money">
-            <Input label="To (estimated)" placeholder="0.0" />
+            <Input label="To (estimated)" placeholder="0.0" color="black" />
           </Card>
           <WalletMultiButton />
         </Card>
