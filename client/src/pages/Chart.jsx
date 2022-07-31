@@ -4,9 +4,10 @@ import "../components/css/chart.css"
 
 const Chart = () => {
     const ref = React.useRef();
-    React.useEffect(() => {
-            console.log(ref.current?.contentWindow.document.getElementById("root"))
-    })
+    // React.useEffect(() => {
+    //         console.log(ref.current?.contentWindow.document.getElementById("root"))
+    //         document.querySelector('iframe[src=""https://info.uniswap.org/#/]');
+    // })
 
     return (
         <iframe ref={ref} title="Chart" className='chart' src="https://info.uniswap.org/#/"></iframe>
