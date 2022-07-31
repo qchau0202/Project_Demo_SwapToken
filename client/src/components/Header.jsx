@@ -5,7 +5,7 @@ import {
   Grid,
   Button,
 } from "@nextui-org/react";
-// import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 import UniSwapLogo from "../assets/uniswap-4441964-3680017.webp";
 import "./css/header.css";
@@ -37,7 +37,7 @@ const Header = () => {
       </div>
 
       <div className="settings">
-        <Button color="secondary" size="lg">Select Wallet</Button>
+        <WalletMultiButton/>
       </div>
     </header>
   );
