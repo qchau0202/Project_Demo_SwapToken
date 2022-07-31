@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { Card, Grid, Input,  Button } from "@nextui-org/react";
-import { AiOutlineSetting, AiOutlineArrowDown } from "react-icons/ai";
+import { AiOutlineArrowDown } from "react-icons/ai";
 import { useWallet, useConnection } from "@solana/wallet-adapter-react";
 import { Transaction, SystemProgram, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import "../components/css/swap.css";
