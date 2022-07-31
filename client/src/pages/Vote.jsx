@@ -24,7 +24,7 @@ import {
           <h3 className="Text" b h3 >
             Proposals
           </h3>
-          <Button className="button" auto color={`error`} >
+          <Button className="button" auto color={`secondary`} >
            Create Proposal
           </Button>
         </div>
@@ -32,7 +32,7 @@ import {
          <b> <h4 className="colorText"  >
           Show Cancelled
           </h4></b>
-          <Switch color="error" iconOff checked={true} />
+          <Switch color="secondary" iconOff checked={true} />
         </div>
         <a className="votecp" href="#/vote/2/22">
          <span className="cpa">2.14</span>

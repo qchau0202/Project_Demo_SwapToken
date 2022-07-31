@@ -20,13 +20,23 @@ display: flex;
 }
 .b{
     display: flex;
+<<<<<<< HEAD
+    /* margin-right: 100px;
+    margin-left: 30px; */
+   margin-bottom: 8px;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 40px;
+=======
     margin-right: 100px;
     margin-left: 100px;
    margin-bottom: 5px;
    align-items: center;
    justify-content: space-around;
    padding: 0px 5px;
+>>>>>>> 14e5f24a5ce3f0239b7049b2a2528fa3dae93595
     border-radius: 8px;
+    width: 100%;
    
 }
 .Text{
