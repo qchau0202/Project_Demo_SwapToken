@@ -34,9 +34,19 @@ import {
           </h4></b>
           <Switch color="secondary" iconOff checked={true} />
         </div>
-        <a className="votecp" href="#/vote/2/22">
-         <span className="cpa">2.14</span>
-         <span className="cpb">Deploy Uniswap v3 on Celo</span>
+        <a className="votecp" href="https://app.uniswap.org/#/vote/2/23?chain=mainnet">
+         <span className="cpa">2.23</span>
+         <span className="cpb">Optimism 1bp Fee Tier</span>
+         <span className="cpc">Executed</span>
+         </a>
+         <a className="votecp" href="https://app.uniswap.org/#/vote/2/14?chain=mainnet">
+         <span className="cpa">2.24</span>
+         <span className="cpb">Polygon 1bp Fee Tier</span>
+         <span className="cpc">Executed</span>
+         </a>
+         <a className="votecp" href="https://app.uniswap.org/#/vote/2/20?chain=mainnet">
+         <span className="cpa">2.25</span>
+         <span className="cpb">Deploy Uniswap v3 on Gnosis Chain</span>
          <span className="cpc">Executed</span>
          </a>
          

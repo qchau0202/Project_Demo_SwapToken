@@ -37,7 +37,7 @@ const Header = () => {
       </div>
 
       <div className="settings">
-        <WalletMultiButton color="secondary" size="lg">Select Wallet</WalletMultiButton>
+        <WalletMultiButton/>
       </div>
     </header>
   );
