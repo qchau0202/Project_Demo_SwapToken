@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Inter custom',sans-serif;
+     
+}
+
+
+.containerv2{
+    display: flex;
+    align-items: center;
+ justify-content: center;
+ align-items: center;
+ padding : 50px 50px;
+}
+
+.votev2{
+    width: 800px;
+    height: 1255px;
+    border:solid white 1px;
+    margin-bottom: 30px;
+    margin-right: 55px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    padding: 10px 10px;
+}
+.h4text{
+    margin-top: 10px;
+    
+}
+.carda{
+    width: 760px;
+    height: 92px;
+    border:solid white 1px;
+    border-radius: 12px;
+    background-color: rgb(253, 234, 241);
+    text-align: center;
+    margin: 20px 10px;
+    color: rgb(213, 0, 102);
+    padding: 8px 16px;
+    text-align: start;
+}
+.textcolora{
+    color: rgb(213, 0, 102);
+}
+.cardb{
+    width: 760px;
+    height: 92px;
+    border:solid grey 0.2px;
+    border-radius: 20px;
+    background-color: rgb(247, 248, 250) !important;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 8px 16px;
+    text-align: start;  
+    padding: 8px 16px;
+    
+}
+.textcardb{
+    color:  rgb(86, 90, 105);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inputcardc{
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: rgb(247, 248, 250);
+    transition: color 300ms step-start 0s;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    width: 100%;
+    padding: 0px;
+    appearance: textfield;
+}
+.inputcardd{
+    font-size: 28px;
+    position: relative;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: rgb(247, 248, 250);
+    transition: color 300ms step-start 0s;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    width: 100%;
+    padding: 15px;
+    appearance: textfield;
+   
+}
+.carde{
+    width: 760px;
+    height: 600px;
+    border:solid grey 0.2px;
+    border-radius: 20px;
+    background-color: rgb(247, 248, 250) !important;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 8px 16px;
+    text-align: start;  
+    padding: 8px 16px;
+    
+}
+.inputcarde{
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: rgb(247, 248, 250);
+    transition: color 300ms step-start 0s;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    width: 100%;
+    padding: 0px;
+    appearance: textfield;
+    margin-bottom: 5px;
+}
+.hr{
+    background-color: gray;
+}
+.textarea{
+
+    height: 500px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    resize: none;
+    background-color: rgb(247, 248, 250);
+    transition: color 300ms step-start 0s;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    width: 100%;
+    line-height: 2.5;
+    padding: 0px;
+    appearance: textfield;
+}
+::placeholder{
+    color: 565A69;
+}
+.buttonvote{
+    width: 740px;
+    height: 60px;    
+    opacity: 0.5;
+    cursor: auto;
+    box-shadow: none;
+    background-color: rgb(218, 45, 43);
+    border: 1px solid rgb(218, 45, 4);
+    border-radius: 20px;
+    padding: 10px;
+}
+.af{
+    color: #e8006f;
+}
