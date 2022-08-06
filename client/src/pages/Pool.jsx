@@ -12,16 +12,16 @@ const Pool = () => {
         </div>
         <div className="box">
           <p>Your active V3 liquidity positions will appear here.</p>
-          <WalletMultiButton color="secondary" size="lg">Select Wallet</WalletMultiButton>
+          <WalletMultiButton  className="hmmm"/>
         </div>
         <div className="bottom">
          <div className="links-a">
-          <p>Learn about providing liquidity</p>
-          <p className="des">Check out our v3 LP walkthrough and migration guides.</p>
+          <b><p>Learn about providing liquidity</p></b>
+          <b><p className="des">Check out our v3 LP walkthrough and migration guides.</p></b>
          </div>
          <div className="links-b">
-          <p>Top pools</p>
-          <p className="des">Explore Uniswap Analytics.</p>
+          <b><p>Top pools</p></b>
+          <b><p className="des">Explore Uniswap Analytics.</p></b>
          </div>
         </div>
       </div>

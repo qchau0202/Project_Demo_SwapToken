@@ -33,5 +33,6 @@ header {
     width:200px;
 }
 .textLink {
+    font-weight: 400;
     color: rgb(195, 197, 203);
 }

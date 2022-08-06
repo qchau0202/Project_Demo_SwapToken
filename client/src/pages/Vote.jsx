@@ -9,7 +9,7 @@ import {
   } from "@nextui-org/react";
   import React from "react";
   import "../components/css/Vote.css"
-  import Votev2 from "./Voteb";
+  // import Votev2 from "./Voteb";
   // import Votecp from "../components/Vote";
   
   function Vote() {
@@ -25,7 +25,7 @@ import {
           <h3 className="Text" b h3 >
             Proposals
           </h3>
-          <Button className="button" link={"/Votev2"} auto color={`secondary`} >
+          <Button className="button"  auto color={`secondary`} >
            Create Proposal
           </Button>
         </div>

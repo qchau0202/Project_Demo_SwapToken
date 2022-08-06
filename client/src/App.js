@@ -5,6 +5,7 @@ import Vote from "./pages/Vote";
 import Swap from "./pages/Swap";
 import Pool from "./pages/Pool";
 import Chart from "./pages/Chart";
+// s
 import "./App.css";
 require("@solana/wallet-adapter-react-ui/styles.css");
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/pool" element={<Pool />} />
           <Route path="/vote" element={<Vote />} />
           <Route path='/chart' element={<Chart />}/>
+     
         </Routes>
       </BrowserRouter>
     </div>

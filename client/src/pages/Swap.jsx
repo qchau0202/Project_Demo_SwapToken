@@ -38,13 +38,13 @@ export default function Swap() {
     <Grid.Container className="all">
       <form className="swap" onSubmit={handleOnSubmit}>
         <Card className="swap1">
-            <h3 className="text">Swap</h3>
+            <h3 className="text">Send</h3>
           <Card className="money">
-            <Input label="From" placeholder="0.0" name="recipientAddress" size="lg" css={{ $$inputColor: 'rgb(51, 54, 61)' }}/>
+            <Input label="Send" placeholder="Place Wallet Id" name="recipientAddress" size="lg" css={{ $$inputColor: 'rgb(51, 54, 61)' }}/>
           </Card>
           <AiOutlineArrowDown color="gray" />
           <Card className="money">
-            <Input label="To (Estimated)" placeholder="0.0" name="amount" size="lg" css={{ $$inputColor: "rgb(51, 54, 61)" }}/>
+            <Input label="Number Of Coins" placeholder="0.0" name="amount" size="lg" css={{ $$inputColor: "rgb(51, 54, 61)" }}/>
           </Card>
           <br />
           <Button color="secondary" size="xl" type="submit" className="btn">Send coin</Button>
