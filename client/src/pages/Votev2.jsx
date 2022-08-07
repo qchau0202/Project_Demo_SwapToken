@@ -10,7 +10,7 @@ import "../components/css/VoteV2.css"
   
   function Votev2() {
     return (
-      <Container className="containerv2">
+      <container className="containerv2">
         <div className="votev2" >
        <h4 className="h4text" >Create Proposal</h4>
 
@@ -55,7 +55,7 @@ import "../components/css/VoteV2.css"
        <a className="af">fish.vote</a>
        </div>
        </div>
-      </Container>
+      </container>
     );
   }
   

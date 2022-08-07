@@ -8,16 +8,17 @@
 
 
 .containerv2{
+    /* height: 100vh; */
     display: flex;
     align-items: center;
  justify-content: center;
  align-items: center;
- padding : 50px 50px;
+ padding : 0px 50px;
 }
 
 .votev2{
     width: 800px;
-    height: 1255px;
+    height: 1000px;
     border:solid white 1px;
     margin-bottom: 30px;
     margin-right: 55px;
@@ -26,6 +27,9 @@
     box-shadow: 0px 0px 10px black;
     text-align: center;
     padding: 10px 10px;
+}
+input::placeholder{
+    color: #565A69;
 }
 .h4text{
     margin-top: 10px;
@@ -99,7 +103,7 @@
 }
 .carde{
     width: 760px;
-    height: 600px;
+    height: 350px;
     border:solid grey 0.2px;
     border-radius: 20px;
     background-color: rgb(247, 248, 250) !important;
@@ -131,7 +135,7 @@
 }
 .textarea{
 
-    height: 500px;
+    height: 300px;
     font-size: 1rem;
     outline: none;
     border: none;
@@ -148,9 +152,7 @@
     padding: 0px;
     appearance: textfield;
 }
-::placeholder{
-    color: 565A69;
-}
+
 .buttonvote{
     width: 740px;
     height: 60px;    
@@ -164,4 +166,8 @@
 }
 .af{
     color: #e8006f;
+}
+input::placeholder, .inputcardc::placeholder , .inputcardd::placeholder ,.inputcarde::placeholder {
+    color: #565A69;
+    font-weight:400
 }
